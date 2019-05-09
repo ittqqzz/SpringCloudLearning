@@ -12,6 +12,21 @@
     <artifactId>microservice-provider-dept-8001</artifactId>
 
     <dependencies>
+        <!-- 当点击 eureka 界面的 info 连接的时候会显示 error 界面需要添加一以下依赖设置-->
+        <!-- actuator 监控信息 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <!-- 将微服务 provider 注册进 eureka 需要的依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
         <!-- 引入自定义的 api 工程 -->
         <dependency>
             <groupId>com.tqz</groupId>
@@ -51,7 +66,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
-        <!-- 修改后立即生效，热部署 -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>springloaded</artifactId>

@@ -9,33 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>microservice-consumer-dept-80</artifactId>
+    <artifactId>microservice-eureka-7002</artifactId>
 
     <dependencies>
-        <!-- Ribbon 相关依赖 -->
+        <!--eureka-server服务端 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-ribbon</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
-        <!-- 自定义的api模块 -->
-        <dependency>
-            <groupId>com.tqz</groupId>
-            <artifactId>microservice-api</artifactId>
-            <version>${project.version}</version>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
         <!-- 基本依赖 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>springloaded</artifactId>
@@ -45,5 +27,4 @@
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
     </dependencies>
-
 </project>

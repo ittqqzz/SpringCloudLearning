@@ -18,3 +18,18 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     url: jdbc:mysql://localhost:3306/cloudDB01
     username: root
+# 将本服务注册进 eureka 中，并显示服务名称而非spring应用名称，开启ip显示而非域名
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: microservice-dept8001
+    prefer-ip-address: true
+
+# 添加 actuator 监控信息
+info:
+  app.name: tqz-microservice
+  company.name: tqz
+  build.actifactId: $project.artifactId$
+  build.version: $project.version$
