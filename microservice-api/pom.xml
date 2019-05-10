@@ -18,7 +18,7 @@
             <artifactId>lombok</artifactId>
         </dependency>
 
-        <!-- feign 相关-->
+        <!-- API 模块为了支持 feign 需要引入 Fegin 的包 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-feign</artifactId>

@@ -16,6 +16,8 @@
         <module>microservice-eureka-7003</module>
         <module>microservice-provider-dept-8002</module>
         <module>microservice-provider-dept-8003</module>
+        <module>microservice-consumer-dept-80-feign</module>
+        <module>microservice-provider-dept-8001-hystrix</module>
     </modules>
     <packaging>pom</packaging>
 
