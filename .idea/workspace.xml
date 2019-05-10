@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1abfc35-988b-44c1-9b5d-202940d12d58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/microservice-api/src/main/java/com/tqz/cloud/service/DeptClientServiceFallbackFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-api/target/classes/com/tqz/cloud/entities/Dept.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-api/target/classes/com/tqz/cloud/service/DeptClientService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-eureka-7003/target/classes/com/tqz/cloud/EurekaServer7003_App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-api/src/main/java/com/tqz/cloud/service/DeptClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-api/src/main/java/com/tqz/cloud/service/DeptClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-api/target/classes/com/tqz/cloud/service/DeptClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-api/target/classes/com/tqz/cloud/service/DeptClientService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-api/target/microservice.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-api/target/microservice.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-dept-80-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-dept-80-feign/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,46 +68,46 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="4" />
+          <entry key="class" value="5" />
           <entry key="gitignore" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="86" />
+          <entry key="java" value="91" />
           <entry key="properties" value="1" />
           <entry key="vmoptions" value="1" />
           <entry key="xml" value="49" />
-          <entry key="yml" value="29" />
+          <entry key="yml" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
+          <entry key="CLASS" value="5" />
           <entry key="Git file" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="86" />
+          <entry key="JAVA" value="91" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="49" />
-          <entry key="YAML" value="29" />
+          <entry key="YAML" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
           <entry key="gitignore" value="30" />
-          <entry key="java" value="486" />
+          <entry key="java" value="516" />
           <entry key="properties" value="4" />
           <entry key="xml" value="375" />
-          <entry key="yml" value="320" />
+          <entry key="yml" value="387" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="30" />
-          <entry key="JAVA" value="486" />
+          <entry key="JAVA" value="516" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Properties" value="4" />
           <entry key="XML" value="375" />
-          <entry key="YAML" value="320" />
+          <entry key="YAML" value="387" />
         </counts>
       </usages-collector>
     </session>
@@ -110,28 +115,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001-hystrix/src/main/java/tqz/cloud/controller/DeptController.java">
+        <entry file="file://$PROJECT_DIR$/microservice-api/src/main/java/com/tqz/cloud/service/DeptClientServiceFallbackFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="459">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001-hystrix/src/main/java/tqz/cloud/DeptProvider8001_Hystrix_App.java">
+        <entry file="file://$PROJECT_DIR$/microservice-api/src/main/java/com/tqz/cloud/service/DeptClientService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="12" column="99" lean-forward="true" selection-start-line="12" selection-end-line="12" selection-end-column="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80-feign/src/main/java/com/tqz/cloud/DeptConsumer80_Feign_App.java">
+        <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80-feign/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="73">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -194,13 +209,14 @@
         <option value="$PROJECT_DIR$/microservice-consumer-dept-80/src/main/java/com/tqz/cloud/cfgbeans/MyRandomRule.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-dept-80/src/main/java/com/tqz/cloud/cfgbeans/ConfigBean.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-dept-80-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-dept-80-feign/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-consumer-dept-80-feign/src/main/java/com/tqz/cloud/cfgbeans/ConfigBean.java" />
         <option value="$PROJECT_DIR$/microservice-api/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-dept-80-feign/src/main/java/com/tqz/cloud/controller/DeptController_Consumer.java" />
-        <option value="$PROJECT_DIR$/microservice-api/src/main/java/com/tqz/cloud/service/DeptClientService.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-dept-80-feign/src/main/java/com/tqz/cloud/DeptConsumer80_Feign_App.java" />
         <option value="$PROJECT_DIR$/microservice-provider-dept-8001-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-api/src/main/java/com/tqz/cloud/service/DeptClientServiceFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/microservice-api/src/main/java/com/tqz/cloud/service/DeptClientService.java" />
+        <option value="$PROJECT_DIR$/microservice-consumer-dept-80-feign/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -246,7 +262,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
-    <option name="width" value="980" />
+    <option name="width" value="979" />
     <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -270,60 +286,25 @@
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-eureka-7002" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-eureka-7002" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-eureka-7002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-eureka-7002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-eureka-7002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-provider-dept-8001-hystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-provider-dept-8001-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-provider-dept-8001-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-provider-dept-8001-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -331,7 +312,7 @@
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-provider-dept-8001-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -340,27 +321,7 @@
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-provider-dept-8001-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-provider-dept-8001-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-provider-dept-8001-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -370,40 +331,28 @@
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-provider-dept-8001-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-dept-80-feign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-provider-dept-8001-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-dept-80-feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-provider-dept-8001-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-dept-80-feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-provider-dept-8001-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-consumer-dept-80-feign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -423,7 +372,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557476091226" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557483300283" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_121/bin/jvisualvm.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -638,18 +587,17 @@
       <workItem from="1557464974292" duration="5354000" />
       <workItem from="1557471166423" duration="2596000" />
       <workItem from="1557475595269" duration="36000" />
-      <workItem from="1557475754658" duration="240000" />
+      <workItem from="1557475754658" duration="2251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26487000" />
+    <option name="totallyTimeSpent" value="28498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.30972221" visible="true" weight="0.35238737" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.30972221" visible="true" weight="0.35373235" />
       <window_info id="Structure" order="1" sideWeight="0.69027776" side_tool="true" weight="0.23671822" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -678,7 +626,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="17" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="18" />
       <window_info anchor="bottom" id="Tail" order="19" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="20" sideWeight="0.49966374" visible="true" weight="0.63699585" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="20" sideWeight="0.49966374" visible="true" weight="0.6634214" />
       <window_info anchor="bottom" id="Problems" order="21" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -727,27 +675,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80/src/main/java/com/tqz/cloud/controller/DeptController_Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80/src/main/java/com/tqz/cloud/DeptConsumer80_App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8003/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -939,24 +866,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-api/src/main/java/com/tqz/cloud/service/DeptClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="23" column="50" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80-feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="123" selection-start-line="6" selection-start-column="123" selection-end-line="6" selection-end-column="123" />
         </state>
       </provider>
     </entry>
@@ -1043,24 +956,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001-hystrix/src/main/java/tqz/cloud/controller/DeptController.java">
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80-feign/src/main/java/com/tqz/cloud/DeptConsumer80_Feign_App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        <state relative-caret-position="108">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001-hystrix/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001-hystrix/src/main/java/tqz/cloud/DeptProvider8001_Hystrix_App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="108">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80-feign/src/main/java/com/tqz/cloud/DeptConsumer80_Feign_App.java">
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001-hystrix/src/main/java/tqz/cloud/controller/DeptController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="629">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/.m2/repository/io/github/openfeign/feign-hystrix/9.5.0/feign-hystrix-9.5.0.jar!/feign/hystrix/FallbackFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-api/src/main/java/com/tqz/cloud/service/DeptClientServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-api/src/main/java/com/tqz/cloud/service/DeptClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="99" lean-forward="true" selection-start-line="12" selection-end-line="12" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
