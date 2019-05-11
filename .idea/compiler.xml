@@ -10,6 +10,7 @@
         <module name="microserviceapi" />
         <module name="microserviceconsumerdept80" />
         <module name="microserviceconsumerdept80feign" />
+        <module name="microserviceconsumerhystrixdashboard" />
         <module name="microserviceeureka7001" />
         <module name="microserviceeureka7002" />
         <module name="microserviceeureka7003" />
