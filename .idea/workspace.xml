@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1abfc35-988b-44c1-9b5d-202940d12d58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/microservice-zuul-gateway-9527/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-zuul-gateway-9527/src/main/java/com/tqz/cloud/Zuul_9527_StartSpringCloudApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-zuul-gateway-9527/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,9 +70,10 @@
           <entry key="gitignore" value="2" />
           <entry key="iml" value="1" />
           <entry key="java" value="96" />
+          <entry key="md" value="1" />
           <entry key="properties" value="1" />
           <entry key="vmoptions" value="1" />
-          <entry key="xml" value="58" />
+          <entry key="xml" value="60" />
           <entry key="yml" value="38" />
         </counts>
       </usages-collector>
@@ -86,9 +83,10 @@
           <entry key="Git file" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="96" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="58" />
+          <entry key="XML" value="60" />
           <entry key="YAML" value="38" />
         </counts>
       </usages-collector>
@@ -97,6 +95,7 @@
           <entry key="dummy" value="5" />
           <entry key="gitignore" value="30" />
           <entry key="java" value="542" />
+          <entry key="md" value="143" />
           <entry key="properties" value="4" />
           <entry key="xml" value="396" />
           <entry key="yml" value="633" />
@@ -106,6 +105,7 @@
         <counts>
           <entry key="Git file" value="30" />
           <entry key="JAVA" value="542" />
+          <entry key="Markdown" value="143" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Properties" value="4" />
           <entry key="XML" value="396" />
@@ -117,10 +117,15 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-zuul-gateway-9527/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="27">
+                <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -142,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservice-provider-dept-8001/src/main/java/com/tqz/cloud/service/impl/DeptServiceImpl.java" />
         <option value="$PROJECT_DIR$/microservice-provider-dept-8001/src/main/java/com/tqz/cloud/controller/DeptController.java" />
         <option value="$PROJECT_DIR$/microservice-provider-dept-8001/src/main/resources/application.properties" />
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
@@ -193,6 +197,7 @@
         <option value="$PROJECT_DIR$/microservice-zuul-gateway-9527/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-zuul-gateway-9527/src/main/java/com/tqz/cloud/Zuul_9527_StartSpringCloudApp.java" />
         <option value="$PROJECT_DIR$/microservice-zuul-gateway-9527/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -263,45 +268,7 @@
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-zuul-gateway-9527" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -321,7 +288,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557568022461" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557568563816" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_121/bin/jvisualvm.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -574,18 +541,18 @@
       <workItem from="1557475595269" duration="36000" />
       <workItem from="1557475754658" duration="2369000" />
       <workItem from="1557546144212" duration="753000" />
-      <workItem from="1557559655495" duration="4752000" />
+      <workItem from="1557559655495" duration="5403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34121000" />
+    <option name="totallyTimeSpent" value="34772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.30972221" weight="0.73647714" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.30972221" weight="0.73638195" />
       <window_info id="Structure" order="1" sideWeight="0.69027776" side_tool="true" weight="0.23671822" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -614,7 +581,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="17" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="18" />
       <window_info anchor="bottom" id="Tail" order="19" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="20" sideWeight="0.49966374" visible="true" weight="0.32684284" />
+      <window_info anchor="bottom" id="Run Dashboard" order="20" sideWeight="0.49966374" weight="0.34353268" />
       <window_info anchor="bottom" id="Problems" order="21" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -708,13 +675,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8003/src/main/java/com/tqz/cloud/dao/Dept8003Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8003/src/main/java/com/tqz/cloud/service/impl/DeptServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -813,13 +773,6 @@
     <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80-feign/microserviceconsumerdept80feign.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -845,13 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1054,8 +1000,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-zuul-gateway-9527/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+        <state relative-caret-position="193">
+          <caret line="22" selection-start-line="22" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1818">
+          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="27">
+            <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
