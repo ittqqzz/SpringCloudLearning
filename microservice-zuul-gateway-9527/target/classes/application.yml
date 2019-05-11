@@ -1,0 +1,33 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: microservice-zuul-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true
+
+# 添加 actuator 监控信息
+info:
+  app.name: tqz-microservice
+  company.name: tqz
+  build.actifactId: $project.artifactId$
+  build.version: $project.version$
+
+# 首先应该隐藏微服务的名称
+zuul:
+  routes:
+    mydept.serviceId: microservice-dept
+    # 但是上面的配置存在一个问题就是  microservice-dept 和  service 均可以访问，我们只能让 service 起作用
+    mydept.path: /service/**
+  # 让原微服务名称失效，不加的话新路径旧路径均可访问；* 表示让全部的元微服务名失效，也可以指定名称单独失效
+  ignored-services: "*"
+  # (可选项)增加服务前缀
+  prefix: /tqz
+
