@@ -2,3 +2,5 @@ spring:
   application:
     name: microservice-config-client-3355
 
+# 这里没有写 port 因为根据 github 上的配置有 server.port=8021/8022
+# 所以如果连通了，会根据访问的 profile 的属性，加载对应的端口

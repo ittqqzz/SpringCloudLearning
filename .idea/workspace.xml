@@ -2,20 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1abfc35-988b-44c1-9b5d-202940d12d58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/microservice-config-3344/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-config-3344/src/main/java/com/tqz/cloud/Config_3344_StartSpringCloudApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-config-3344/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-config-client-3355/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-config-client-3355/src/main/java/com/tqz/cloud/ConfigClient_3355_StartSpringCloudApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-config-client-3355/src/main/java/com/tqz/cloud/rest/ConfigClientRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-config-client-3355/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-8001/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-eureka-7001/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/DeptProvider8001_Config_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/dao/Dept8001ConfigDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-provider-dept-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-dept-8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-provider-dept-8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-dept-8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-client-3355/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-config-client-3355/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-client-3355/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-config-client-3355/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-client-3355/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-client-3355/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-config-client-3355/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-client-3355/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-config-client-3355/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-eureka-7001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-eureka-7001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-eureka-7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-eureka-7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-eureka-7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-eureka-7001/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,6 +42,7 @@
     <ignored path="$PROJECT_DIR$/microservice-zuul-gateway-9527/target/" />
     <ignored path="$PROJECT_DIR$/microservice-config-3344/target/" />
     <ignored path="$PROJECT_DIR$/microservice-config-client-3355/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-provider-dept-config-8001/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,12 +92,12 @@
           <entry key="class" value="7" />
           <entry key="gitignore" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="103" />
+          <entry key="java" value="139" />
           <entry key="md" value="1" />
           <entry key="properties" value="1" />
           <entry key="vmoptions" value="1" />
-          <entry key="xml" value="63" />
-          <entry key="yml" value="54" />
+          <entry key="xml" value="77" />
+          <entry key="yml" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -96,109 +105,46 @@
           <entry key="CLASS" value="7" />
           <entry key="Git file" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="103" />
+          <entry key="JAVA" value="139" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="63" />
-          <entry key="YAML" value="54" />
+          <entry key="XML" value="77" />
+          <entry key="YAML" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="5" />
+          <entry key="dummy" value="12" />
           <entry key="gitignore" value="30" />
-          <entry key="java" value="651" />
+          <entry key="java" value="672" />
           <entry key="md" value="143" />
           <entry key="properties" value="4" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="403" />
-          <entry key="yml" value="865" />
+          <entry key="xml" value="466" />
+          <entry key="yml" value="1158" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="30" />
-          <entry key="JAVA" value="651" />
+          <entry key="JAVA" value="672" />
           <entry key="Markdown" value="143" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="PLAIN_TEXT" value="13" />
           <entry key="Properties" value="4" />
-          <entry key="XML" value="403" />
-          <entry key="YAML" value="865" />
+          <entry key="XML" value="466" />
+          <entry key="YAML" value="1158" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-config-client-3355/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-config-client-3355/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-config-client-3355/src/main/java/com/tqz/cloud/rest/ConfigClientRest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-eureka-7001/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-config-3344/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-config-3344/src/main/java/com/tqz/cloud/Config_3344_StartSpringCloudApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-config-client-3355/src/main/java/com/tqz/cloud/ConfigClient_3355_StartSpringCloudApp.java">
+        <entry file="file://$PROJECT_DIR$/microservice-eureka-7001/src/main/java/com/tqz/cloud/EurekaServer7001_App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-config-client-3355/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
-              <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -220,27 +166,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservice-eureka-7003/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-eureka-7001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-eureka-7002/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-eureka-7003/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-eureka-7002/src/main/java/com/tqz/cloud/EurekaServer7002_App.java" />
-        <option value="$PROJECT_DIR$/microservice-eureka-7003/src/main/java/com/tqz/cloud/EurekaServer7003_App.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-dept-80/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-dept-80/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-dept-80/src/main/java/com/tqz/cloud/DeptConsumer80_App.java" />
-        <option value="$PROJECT_DIR$/microservice-consumer-dept-80/src/main/java/com/tqz/cloud/controller/DeptController_Consumer.java" />
-        <option value="$PROJECT_DIR$/microservice-provider-dept-8002/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-provider-dept-8003/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-provider-dept-8002/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-provider-dept-8003/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-provider-dept-8002/src/main/java/com/tqz/cloud/dao/Dept8001Dao.java" />
         <option value="$PROJECT_DIR$/microservice-provider-dept-8002/src/main/java/com/tqz/cloud/dao/Dept8002Dao.java" />
         <option value="$PROJECT_DIR$/microservice-provider-dept-8002/src/main/java/com/tqz/cloud/service/impl/DeptServiceImpl.java" />
         <option value="$PROJECT_DIR$/microservice-provider-dept-8002/src/main/resources/mybatis/mapper/DeptMapper.xml" />
         <option value="$PROJECT_DIR$/microservice-provider-dept-8003/src/main/java/com/tqz/cloud/DeptProvider8003_App.java" />
         <option value="$PROJECT_DIR$/microservice-provider-dept-8002/src/main/java/com/tqz/cloud/DeptProvider8002_App.java" />
-        <option value="$PROJECT_DIR$/microservice-provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
         <option value="$PROJECT_DIR$/microservice-consumer-dept-80/src/main/java/com/tqz/loadblanceconfig/MyRandomRule.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-dept-80/src/main/java/com/tqz/loadblanceconfig/MyLBRule.java" />
         <option value="$PROJECT_DIR$/microservice-consumer-dept-80/src/main/java/com/tqz/cloud/cfgbeans/MyRandomRule.java" />
@@ -268,9 +199,24 @@
         <option value="$PROJECT_DIR$/microservice-config-3344/src/main/java/com/tqz/cloud/Config_3344_StartSpringCloudApp.java" />
         <option value="$PROJECT_DIR$/microservice-config-3344/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-config-client-3355/src/main/java/com/tqz/cloud/rest/ConfigClientRest.java" />
-        <option value="$PROJECT_DIR$/microservice-config-client-3355/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-config-client-3355/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-config-client-3355/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/microservice-config-client-3355/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-dept-config-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/cloud/DeptProvider8001_App.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/cloud/dao/Dept8001Dao.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/cloud/dao/Dept8001ConfigDao.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/cloud/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/controller/DeptController.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/service/impl/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/DeptProvider8001_Config_App.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/microservice-eureka-7001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-eureka-7001/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-eureka-7001/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -368,23 +314,47 @@
               <item name="microservice-config-client-3355" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-config-client-3355" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-eureka-7001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-eureka-7001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-eureka-7001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-eureka-7001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-eureka-7001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-config-client-3355" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-eureka-7001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -409,7 +379,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557650251623" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557656603319" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_121/bin/jvisualvm.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -431,11 +401,11 @@
       <recent name="com.tqz.cloud.entities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tqz\IdeaProjects\microservice\microservice-provider-dept-config-8001\src\main\resources" />
+      <recent name="C:\Users\tqz\IdeaProjects\microservice\microservice-provider-dept-config-8001\src\main\java" />
       <recent name="C:\Users\tqz\IdeaProjects\microservice\microservice-config-client-3355\src\main\java\com\tqz\cloud" />
       <recent name="C:\Users\tqz\IdeaProjects\microservice\microservice-consumer-dept-80-feign\src\main\java\com\tqz\cloud" />
       <recent name="C:\Users\tqz\IdeaProjects\microservice\microservice-consumer-dept-80-feign\src\main\resources" />
-      <recent name="C:\Users\tqz\IdeaProjects\microservice\microservice-provider-dept-8003\src\main\java" />
-      <recent name="C:\Users\tqz\IdeaProjects\microservice\microservice-provider-dept-8002\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -456,7 +426,7 @@
     </option>
     <option name="contentProportion" value="0.2981494" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Config_3344_StartSpringCloudApp">
+  <component name="RunManager" selected="Spring Boot.DeptProvider8001_Config_App">
     <configuration name="ConfigClient_3355_StartSpringCloudApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="microserviceconfigclient3355" />
       <extension name="coverage">
@@ -543,6 +513,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeptProvider8001_Config_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="microserviceproviderdeptconfig8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tqz.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tqz.cloud.DeptProvider8001_Config_App" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -657,6 +640,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.DeptProvider8001_Config_App" />
       <item itemvalue="Spring Boot.ConfigClient_3355_StartSpringCloudApp" />
       <item itemvalue="Spring Boot.Config_3344_StartSpringCloudApp" />
       <item itemvalue="Spring Boot.DeptConsumer_DashBoard_App" />
@@ -695,18 +679,27 @@
       <workItem from="1557475754658" duration="2369000" />
       <workItem from="1557546144212" duration="753000" />
       <workItem from="1557559655495" duration="5579000" />
-      <workItem from="1557644062977" duration="5740000" />
+      <workItem from="1557644062977" duration="9772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40688000" />
+    <option name="totallyTimeSpent" value="44720000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.30972221" visible="true" weight="0.35238737" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.30972221" visible="true" weight="0.39340955" />
       <window_info id="Structure" order="1" sideWeight="0.69027776" side_tool="true" weight="0.23671822" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -721,7 +714,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43297586" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297587" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962447" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50100875" side_tool="true" weight="0.21696801" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.5465925" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32962447" />
@@ -735,7 +728,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="17" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="18" />
       <window_info anchor="bottom" id="Tail" order="19" />
-      <window_info anchor="bottom" id="Run Dashboard" order="20" sideWeight="0.49966374" visible="true" weight="0.5938804" />
+      <window_info anchor="bottom" id="Run Dashboard" order="20" sideWeight="0.49966374" weight="0.7357441" />
       <window_info anchor="bottom" id="Problems" order="21" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -829,145 +822,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80/src/main/java/com/tqz/cloud/cfgbeans/ConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80/src/main/java/com/tqz/cloud/cfgbeans/MyRandomRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="66" column="1" lean-forward="true" selection-start-line="9" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80-feign/microserviceconsumerdept80feign.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="46" column="19" selection-start-line="13" selection-start-column="3" selection-end-line="46" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="19" selection-end-line="6" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80-feign/src/main/java/com/tqz/cloud/cfgbeans/ConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80-feign/src/main/java/com/tqz/cloud/cfgbeans/MyRandomRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80-feign/src/main/java/com/tqz/cloud/controller/DeptController_Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="78" column="19" selection-start-line="13" selection-start-column="3" selection-end-line="78" selection-end-column="19" />
-          <folding>
-            <element signature="n#dependencies#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-eureka-7003/src/main/java/com/tqz/cloud/EurekaServer7003_App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001-hystrix/src/main/java/tqz/cloud/service/impl/DeptServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.1.RELEASE/spring-cloud-netflix-eureka-server-1.3.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/EnableEurekaServer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-eureka-7002/src/main/java/com/tqz/cloud/EurekaServer7002_App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001-hystrix/src/main/java/tqz/cloud/service/DeptService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001-hystrix/src/main/java/tqz/cloud/dao/Dept8001HystrixDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001-hystrix/src/main/resources/mybatis/mapper/DeptMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-consumer-dept-80-feign/src/main/java/com/tqz/cloud/DeptConsumer80_Feign_App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001-hystrix/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001-hystrix/src/main/java/tqz/cloud/DeptProvider8001_Hystrix_App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001-hystrix/src/main/java/tqz/cloud/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/.m2/repository/io/github/openfeign/feign-hystrix/9.5.0/feign-hystrix-9.5.0.jar!/feign/hystrix/FallbackFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1033,6 +887,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,6 +919,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1104,13 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001/src/test/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1127,43 +981,142 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-config-3344/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="544">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="29" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-eureka-7001/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/microservice-config-3344/src/main/java/com/tqz/cloud/Config_3344_StartSpringCloudApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="162">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-config-3344/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="270">
+          <caret line="10" column="66" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-config-client-3355/pom.xml">
+    <entry file="file://$PROJECT_DIR$/microservice-config-client-3355/src/main/java/com/tqz/cloud/rest/ConfigClientRest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        <state relative-caret-position="490">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-config-client-3355/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="78" column="19" selection-start-line="13" selection-start-column="3" selection-end-line="78" selection-end-column="19" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-config-3344/src/main/java/com/tqz/cloud/Config_3344_StartSpringCloudApp.java">
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001/src/main/java/com/tqz/cloud/controller/DeptController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001/src/main/java/com/tqz/cloud/service/impl/DeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001/src/main/java/com/tqz/cloud/service/DeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001/src/main/java/com/tqz/cloud/DeptProvider8001_App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-8001/src/main/java/com/tqz/cloud/dao/Dept8001Dao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/controller/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/service/impl/DeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/service/DeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/resources/mybatis/mapper/DeptMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/dao/Dept8001ConfigDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/resources/mybatis/mybatis.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-client-3355/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1174,17 +1127,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-config-client-3355/src/main/java/com/tqz/cloud/rest/ConfigClientRest.java">
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/DeptProvider8001_Config_App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="103">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-config-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-config-client-3355/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="21" selection-start-line="15" selection-start-column="8" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-eureka-7001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-config-client-3355/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state>
+          <caret selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-eureka-7001/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-eureka-7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-eureka-7001/src/main/java/com/tqz/cloud/EurekaServer7001_App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>

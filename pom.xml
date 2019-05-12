@@ -22,6 +22,7 @@
         <module>microservice-zuul-gateway-9527</module>
         <module>microservice-config-3344</module>
         <module>microservice-config-client-3355</module>
+        <module>microservice-provider-dept-config-8001</module>
     </modules>
     <packaging>pom</packaging>
 

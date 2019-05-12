@@ -20,6 +20,7 @@
         <module name="microserviceproviderdept8001hystrix" />
         <module name="microserviceproviderdept8002" />
         <module name="microserviceproviderdept8003" />
+        <module name="microserviceproviderdeptconfig8001" />
         <module name="microservicezuulgateway9527" />
       </profile>
     </annotationProcessing>

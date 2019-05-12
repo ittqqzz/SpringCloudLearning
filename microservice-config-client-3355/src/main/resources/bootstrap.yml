@@ -5,3 +5,10 @@ spring:
       profile: dev
       label: master
       uri: http://config-3344.com:3344
+
+# 当 profile 是 dev 的时候，加载 github 上规定的 8021 端口
+# 测试的时候访问 127.0.0.1:8021/config
+
+# 同理，profile 改为 8022 的时候，访问 127.0.0.1:8022/config 来测试
+
+# 所以说会根据 spring.profiles 的值加载 --- 与 --- 之间的配置信息，其他地方的不生效
