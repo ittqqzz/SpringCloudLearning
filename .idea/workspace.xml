@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1abfc35-988b-44c1-9b5d-202940d12d58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/microservice-eureka-7001/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/DeptProvider8001_Config_App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/dao/Dept8001ConfigDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/说明文件/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/说明文件/cloudDB.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/说明文件/搭建 SpringCloud.xmind" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-config-client-3355/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-config-client-3355/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-config-client-3355/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-config-client-3355/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-config-client-3355/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-config-client-3355/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-config-client-3355/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-config-client-3355/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-config-client-3355/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-eureka-7001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-eureka-7001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-eureka-7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-eureka-7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-eureka-7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-eureka-7001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,8 +73,8 @@
           <entry key="class" value="7" />
           <entry key="gitignore" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="139" />
-          <entry key="md" value="1" />
+          <entry key="java" value="140" />
+          <entry key="md" value="2" />
           <entry key="properties" value="1" />
           <entry key="vmoptions" value="1" />
           <entry key="xml" value="77" />
@@ -105,8 +86,8 @@
           <entry key="CLASS" value="7" />
           <entry key="Git file" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="139" />
-          <entry key="Markdown" value="1" />
+          <entry key="JAVA" value="140" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="77" />
@@ -118,7 +99,7 @@
           <entry key="dummy" value="12" />
           <entry key="gitignore" value="30" />
           <entry key="java" value="672" />
-          <entry key="md" value="143" />
+          <entry key="md" value="258" />
           <entry key="properties" value="4" />
           <entry key="txt" value="1" />
           <entry key="xml" value="466" />
@@ -129,7 +110,7 @@
         <counts>
           <entry key="Git file" value="30" />
           <entry key="JAVA" value="672" />
-          <entry key="Markdown" value="143" />
+          <entry key="Markdown" value="258" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="Properties" value="4" />
           <entry key="XML" value="466" />
@@ -141,10 +122,15 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-eureka-7001/src/main/java/com/tqz/cloud/EurekaServer7001_App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <entry file="file://$PROJECT_DIR$/说明文件/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="54">
+                <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -166,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservice-provider-dept-8002/src/main/java/com/tqz/cloud/dao/Dept8001Dao.java" />
         <option value="$PROJECT_DIR$/microservice-provider-dept-8002/src/main/java/com/tqz/cloud/dao/Dept8002Dao.java" />
         <option value="$PROJECT_DIR$/microservice-provider-dept-8002/src/main/java/com/tqz/cloud/service/impl/DeptServiceImpl.java" />
         <option value="$PROJECT_DIR$/microservice-provider-dept-8002/src/main/resources/mybatis/mapper/DeptMapper.xml" />
@@ -217,6 +202,7 @@
         <option value="$PROJECT_DIR$/microservice-eureka-7001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-eureka-7001/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-eureka-7001/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/说明文件/README.md" />
       </list>
     </option>
   </component>
@@ -285,79 +271,7 @@
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-config-client-3355" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-config-client-3355" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-config-client-3355" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-config-client-3355" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-config-client-3355" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-eureka-7001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-eureka-7001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-eureka-7001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-eureka-7001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-eureka-7001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-eureka-7001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="说明文件" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -379,7 +293,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557656603319" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557656987005" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_121/bin/jvisualvm.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -401,11 +315,11 @@
       <recent name="com.tqz.cloud.entities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tqz\IdeaProjects\microservice\说明文件" />
       <recent name="C:\Users\tqz\IdeaProjects\microservice\microservice-provider-dept-config-8001\src\main\resources" />
       <recent name="C:\Users\tqz\IdeaProjects\microservice\microservice-provider-dept-config-8001\src\main\java" />
       <recent name="C:\Users\tqz\IdeaProjects\microservice\microservice-config-client-3355\src\main\java\com\tqz\cloud" />
       <recent name="C:\Users\tqz\IdeaProjects\microservice\microservice-consumer-dept-80-feign\src\main\java\com\tqz\cloud" />
-      <recent name="C:\Users\tqz\IdeaProjects\microservice\microservice-consumer-dept-80-feign\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -424,7 +338,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.2981494" />
+    <option name="contentProportion" value="0.32076764" />
   </component>
   <component name="RunManager" selected="Spring Boot.DeptProvider8001_Config_App">
     <configuration name="ConfigClient_3355_StartSpringCloudApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -679,12 +593,12 @@
       <workItem from="1557475754658" duration="2369000" />
       <workItem from="1557546144212" duration="753000" />
       <workItem from="1557559655495" duration="5579000" />
-      <workItem from="1557644062977" duration="9772000" />
+      <workItem from="1557644062977" duration="10449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44720000" />
+    <option name="totallyTimeSpent" value="45397000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -728,7 +642,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="17" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="18" />
       <window_info anchor="bottom" id="Tail" order="19" />
-      <window_info anchor="bottom" id="Run Dashboard" order="20" sideWeight="0.49966374" weight="0.7357441" />
+      <window_info anchor="bottom" id="Run Dashboard" order="20" sideWeight="0.49966374" weight="0.5521558" />
       <window_info anchor="bottom" id="Problems" order="21" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -822,13 +736,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/.m2/repository/io/github/openfeign/feign-hystrix/9.5.0/feign-hystrix-9.5.0.jar!/feign/hystrix/FallbackFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-api/src/main/java/com/tqz/cloud/service/DeptClientService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1127,13 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/DeptProvider8001_Config_App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-25" />
@@ -1187,10 +1087,29 @@
     <entry file="file://$PROJECT_DIR$/microservice-eureka-7001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-dept-config-8001/src/main/java/com/tqz/cloud/DeptProvider8001_Config_App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-eureka-7001/src/main/java/com/tqz/cloud/EurekaServer7001_App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/说明文件/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
