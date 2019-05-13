@@ -13,6 +13,11 @@
 
 
     <dependencies>
+        <!-- 将配置中心也注册到 Eureka -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
 
         <!-- springCloud Config -->
         <dependency>

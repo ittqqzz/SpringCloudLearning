@@ -1,10 +1,12 @@
 package com.tqz.cloud.rest;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RefreshScope
 public class ConfigClientRest {
 
     // github 上的配置文件被加载到本地后，通过表达式取值

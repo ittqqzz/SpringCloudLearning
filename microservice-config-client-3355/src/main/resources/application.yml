@@ -15,5 +15,13 @@ management:
   security:
     enabled: false
 
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: microservice-config-client-3355
+    prefer-ip-address: true
+
 # 这里没有写 port 因为根据 github 上的配置有 server.port=8021/8022
 # 所以如果连通了，会根据访问的 profile 的属性，加载对应的端口
