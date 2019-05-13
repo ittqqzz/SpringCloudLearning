@@ -11,6 +11,12 @@
 
     <artifactId>microservice-eureka-7003</artifactId>
     <dependencies>
+        <!-- 改造 7003：添加 config 配置中心依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+
         <!--eureka-server服务端 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

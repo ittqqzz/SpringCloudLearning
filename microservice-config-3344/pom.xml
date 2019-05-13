@@ -13,6 +13,7 @@
 
 
     <dependencies>
+
         <!-- springCloud Config -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

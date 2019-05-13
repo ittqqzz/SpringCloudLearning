@@ -12,6 +12,11 @@
     <artifactId>microservice-config-client-3355</artifactId>
 
     <dependencies>
+        <!-- 添加 SpringCloud Bus-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+        </dependency>
         <!-- SpringCloud Config客户端 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

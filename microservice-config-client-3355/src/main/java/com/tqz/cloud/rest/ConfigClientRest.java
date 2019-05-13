@@ -17,10 +17,18 @@ public class ConfigClientRest {
     @Value("${server.port}")
     private String port;
 
+    @Value("${test.words}")
+    private String words;
+
     @RequestMapping("/config")
     public String getConfig() {
         String str = "applicationName: " + applicationName + "\t eurekaServers:" + eurekaServers + "\t port: " + port;
         System.out.println("******str: " + str);
         return "applicationName: " + applicationName + "\t eurekaServers:" + eurekaServers + "\t port: " + port;
+    }
+
+    @RequestMapping("/test")
+    public String test() {
+        return words;
     }
 }
