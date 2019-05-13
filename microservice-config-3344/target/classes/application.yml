@@ -9,6 +9,18 @@ spring:
       server:
         git:
           uri: git@github.com:ittqqzz/microservice-config-repo.git
+    bus:
+      trace:
+        enabled: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  security:
+    enabled: false
 
 eureka:
   client:

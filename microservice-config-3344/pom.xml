@@ -13,6 +13,14 @@
 
 
     <dependencies>
+
+        <!-- Server 端添加 SpringCloud Bus-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+        </dependency>
+
+
         <!-- 将配置中心也注册到 Eureka -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
