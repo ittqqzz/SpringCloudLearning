@@ -2,9 +2,13 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul-provider-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul-provider-8611" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul-provider-8612" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-config-3344" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-config-client-3355" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consul-peovider-8611" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-consumer-dept-80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-consumer-dept-80-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-consumer-hystrix-dashboard" charset="UTF-8" />
@@ -16,6 +20,7 @@
     <file url="file://$PROJECT_DIR$/microservice-provider-dept-8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-provider-dept-8003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-provider-dept-config-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-zipkin-server-9411" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-zuul-gateway-9527" charset="UTF-8" />
   </component>
 </project>

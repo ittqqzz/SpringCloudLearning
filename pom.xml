@@ -23,6 +23,7 @@
         <module>microservice-config-3344</module>
         <module>microservice-config-client-3355</module>
         <module>microservice-provider-dept-config-8001</module>
+        <module>microservice-zipkin-server-9411</module>
     </modules>
     <packaging>pom</packaging>
 

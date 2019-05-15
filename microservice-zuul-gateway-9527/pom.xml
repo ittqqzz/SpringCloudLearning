@@ -12,6 +12,12 @@
     <artifactId>microservice-zuul-gateway-9527</artifactId>
 
     <dependencies>
+        <!-- 添加对 zipkin 的支持 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+
         <!-- zuul 路由网关 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

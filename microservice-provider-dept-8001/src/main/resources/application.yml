@@ -7,6 +7,11 @@ server:
 spring:
   application:
     name: microservice-dept
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      percentage: 1.0
   datasource:
     dbcp2:
       initial-size: 5

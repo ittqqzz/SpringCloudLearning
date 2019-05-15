@@ -1,0 +1,16 @@
+server:
+  port: 8611
+
+spring:
+  application:
+    name: microservice-consul-provider-8611
+  cloud:
+    consul:
+      port: 8500
+      host: localhost
+      discovery:
+        service-name: service-provider
+        # 该 service-name 的作用是对外提供的服务名称
+        # 此处我创建两个 provider 分别为：8611、8612
+        # 他们的 service-name 均为 service-provider
+        # 可以在 web 终端看到有一个名为 service-provider 的 service，点击进去发现，有 8611 与 8612 在提供服务

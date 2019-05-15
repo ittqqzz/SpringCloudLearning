@@ -1,9 +1,15 @@
 server:
   port: 9527
 
+ # 添加对 zipkin 的配置支持
 spring:
   application:
     name: microservice-zuul-gateway
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      percentage: 1.0
 
 eureka:
   client:

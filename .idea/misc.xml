@@ -5,7 +5,18 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-provider-8611/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-provider-8612/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-provider-80/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/microservice-consul-peovider-8611/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-dept-consul-80/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-dept-8001-consul/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-dept-8002-consul/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

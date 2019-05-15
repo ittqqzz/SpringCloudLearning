@@ -12,6 +12,13 @@
     <artifactId>microservice-provider-dept-8001</artifactId>
 
     <dependencies>
+
+        <!-- 添加对 zipkin 的支持-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+
         <!-- 当点击 eureka 界面的 info 连接的时候会显示 error 界面需要添加一以下依赖设置-->
         <!-- actuator 监控信息 -->
         <dependency>

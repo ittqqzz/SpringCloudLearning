@@ -7,6 +7,7 @@
 * Zuul
 * SpringCloudConfig
 * SpringCloudBus
+* Zipkin
 
 
 ## Environment

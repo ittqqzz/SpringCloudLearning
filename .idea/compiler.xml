@@ -7,6 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="consul-provider-80" />
+        <module name="consul-provider-8611" />
+        <module name="consul-provider-8612" />
+        <module name="microservice-zipkin-server-9411" />
         <module name="microserviceapi" />
         <module name="microserviceconfig3344" />
         <module name="microserviceconfigclient3355" />
@@ -24,5 +28,12 @@
         <module name="microservicezuulgateway9527" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microserviceconsulpeovider8611" target="1.8" />
+      <module name="microserviceconsumerdeptconsul80" target="1.8" />
+      <module name="microserviceproviderdept8001consul" target="1.8" />
+      <module name="microserviceproviderdept8002consul" target="1.8" />
+      <module name="microservicezipkinserver9411" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

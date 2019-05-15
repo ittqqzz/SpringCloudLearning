@@ -1,0 +1,12 @@
+server:
+  port: 8612
+
+spring:
+  application:
+    name: microservice-consul-provider-8612
+  cloud:
+    consul:
+      port: 8500
+      host: localhost
+      discovery:
+        service-name: service-provider
