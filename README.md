@@ -8,6 +8,7 @@
 * SpringCloudConfig
 * SpringCloudBus
 * Zipkin
+* Consul
 
 
 ## Environment

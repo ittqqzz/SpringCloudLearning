@@ -12,6 +12,7 @@
         <module name="consul-provider-8612" />
         <module name="microservice-zipkin-server-9411" />
         <module name="microserviceapi" />
+        <module name="microservicecloudgateway" />
         <module name="microserviceconfig3344" />
         <module name="microserviceconfigclient3355" />
         <module name="microserviceconsumerdept80" />

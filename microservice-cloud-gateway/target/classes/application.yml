@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: tqz_route
+        uri: https://www.54bruce.com
+        predicates:
+        - Path=/*
